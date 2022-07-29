@@ -23,12 +23,15 @@
   "url": "This is auto replaced",
   "manifest": "This is auto replaced",
   "download": "This is auto replaced",
+  "readme": "https://raw.githubusercontent.com/dor-fvtt-released-modules/combat-tracker-effect-tooltips/master/README.md",
+  "changelog": "https://raw.githubusercontent.com/dor-fvtt-released-modules/combat-tracker-effect-tooltips/master/CHANGELOG.md",
+  "bugs": "https://github.com/dor-fvtt-released-modules/combat-tracker-effect-tooltips/issues",
   "license": "LICENSE",
   "readme": "README.md",
   "media": [
     {
       "type": "cover",
-      "url": "https://raw.githubusercontent.com/dor-fvtt-scratch/combat-tracker-effect-tooltips/master/preview.jpg"
+      "url": "https://raw.githubusercontent.com/dor-fvtt-released-modules/combat-tracker-effect-tooltips/master/preview-v9.jpg"
     }
   ]
 }
