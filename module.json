@@ -10,7 +10,7 @@
   "authors": [
     {
       "name": "Dor",
-      "discord": "dor#7514",
+      "discord": "dor#7514"
     },
     {
       "name": "Cole Schultz",
@@ -28,7 +28,7 @@
   "media": [
     {
       "type": "cover",
-      "url": ""
+      "url": "https://raw.githubusercontent.com/dor-fvtt-scratch/combat-tracker-effect-tooltips/master/preview.jpg"
     }
   ]
 }
