@@ -9,10 +9,10 @@ Hooks.on("renderCombatTracker", (app, html, user) => {
 
         const combatantId = $(this).closest(".combatant").data("combatant-id");
         const combatant = game.combat?.combatants?.get(combatantId);
-        const effect = combatant?.actor?.data?.effects?.find(e => e.data.icon === rawPath);
+        const effect = combatant?.actor?.effects?.find(e => e.icon === rawPath);
         if (effect) {
             // Active effects based effect label
-            this.title = effect.data.label;
+            this.title = effect.label;
         }
     });
 });

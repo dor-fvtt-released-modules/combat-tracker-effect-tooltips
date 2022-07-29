@@ -1,3 +1,7 @@
+# 3.0.0
+
+* v10 compatibility
+
 # 2.2.2
 
 * Final v8/v9-compatible release

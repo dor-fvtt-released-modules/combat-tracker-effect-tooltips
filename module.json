@@ -1,12 +1,14 @@
 {
-  "name": "ct-effect-tooltips",
+  "id": "ct-effect-tooltips",
   "title": "Combat Tracker Effect Tooltips",
   "description": "This simple module adds tooltips to the effect icons shown on combatants in the combat tracker.",
   "version": "This is auto replaced",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
-  "minimumCoreVersion": "0.8.5",
-  "compatibleCoreVersion": "9",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
   "authors": [
     {
       "name": "Dor",
@@ -31,7 +33,10 @@
   "media": [
     {
       "type": "cover",
-      "url": "https://raw.githubusercontent.com/dor-fvtt-released-modules/combat-tracker-effect-tooltips/master/preview-v9.jpg"
+      "url": "https://raw.githubusercontent.com/dor-fvtt-released-modules/combat-tracker-effect-tooltips/master/preview-v10.jpg"
     }
-  ]
+  ],
+  "name": "ct-effect-tooltips",
+  "minimumCoreVersion": "10",
+  "compatibleCoreVersion": "10"
 }
