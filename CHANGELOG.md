@@ -1,4 +1,4 @@
-# 2.2.1
+# 2.2.2
 
 * Final v8/v9-compatible release
 
