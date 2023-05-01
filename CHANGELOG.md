@@ -1,3 +1,19 @@
+# 3.1.0
+
+* Fixed #1 - when  multiple effects use the same icon, that icon's tooltip will list all applicable effects.
+* Added optional 'Duplicate Icons' setting - see README.
+* Converted module to use core Foundry tooltips.
+* Added ChatGPT-fueled localization for the below lanuages. If they are awful, apologies. Feel free to submit a pull request.
+  * French
+  * German
+  * Spanish
+  * Chinese (Simplified)
+  * Japanese
+  * Korean
+  * Italian
+  * Brazilian Portuguese
+* This will be the last v10-compatible release.
+
 # 3.0.0
 
 * v10 compatibility

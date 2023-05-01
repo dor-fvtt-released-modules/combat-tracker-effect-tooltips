@@ -10,6 +10,12 @@ This simple module for FoundryVTT adds tooltips to the effect icons shown on com
 
 ![Preview](https://raw.githubusercontent.com/dor-fvtt-released-modules/combat-tracker-effect-tooltips/master/preview-v10.jpg)
 
+### Duplicate Icons
+By default, if multiple Active Effects share the same icon Foundry will only display that icon once in the Combat Tracker. This module will add a tooltip that lists all effects that use that icon.
+
+In this version, however, I've added a 'Duplicate Icons' setting. If enabled, the module will attempt to instead duplicate the icon in the combat tracker so that each effect has its own icon (and tooltip). This has gotten relatively little testing, and almost certainly will cause issues with some game system or module or something. If that happens, just disable the setting and file a bug - I'll try to fix it.
+
+
 ## Credit
 This is a fork of [the original](https://github.com/schultzcole/FVTT-Combat-Tracker-Effects-Tooltips) by [Cole Schultz](https://github.com/schultzcole) - thanks to him for this useful little module.
 
