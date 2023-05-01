@@ -1,3 +1,7 @@
+# 11.0.0
+
+* Foundry v11 Compatible
+
 # 3.1.0
 
 * Fixed #1 - when  multiple effects use the same icon, that icon's tooltip will list all applicable effects.
