@@ -1,3 +1,8 @@
+# 11.0.0
+
+* v11 Compatibility
+* Removed support for v10 in this version
+
 # 3.1.0
 
 * Fixed #1 - when  multiple effects use the same icon, that icon's tooltip will list all applicable effects.
