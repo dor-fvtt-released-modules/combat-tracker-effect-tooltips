@@ -1,7 +1,6 @@
 # 11.0.0
 
-* v11 Compatibility
-* Removed support for v10 in this version
+* Foundry v11 Compatible
 
 # 3.1.0
 

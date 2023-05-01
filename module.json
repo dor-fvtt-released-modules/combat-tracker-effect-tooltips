@@ -79,11 +79,11 @@
   "media": [
     {
       "type": "cover",
-      "url": "https://raw.githubusercontent.com/dor-fvtt-released-modules/combat-tracker-effect-tooltips/master/preview-v11.jpg"
+      "url": "https://raw.githubusercontent.com/dor-fvtt-released-modules/combat-tracker-effect-tooltips/master/preview-v11.png"
     },
     {
       "type": "setup",
-      "url": "modules/ct-effect-tooltips/preview-v11.jpg"
+      "url": "modules/ct-effect-tooltips/preview-v11.png"
     }
   ],
   "name": "ct-effect-tooltips",
