@@ -49,10 +49,10 @@ Hooks.on("renderCombatTracker", (app, html, user) => {
                         const newIcon = $(icon).clone();
 
                         // Set the title of the new icon to the current effect's name or label.
-                        newIcon.attr("data-tooltip", effect.name || effect.label);
+                        newIcon.attr("data-tooltip", effect.label);
 
                         // Insert the new icon after the original icon.
-                        let index = effect.parent.effects.contents.findIndex((e) => (e.name === effect.name || e.label === effect.label))
+                        let index = effect.parent.effects.contents.findIndex((e) => (e.label === effect.label))
                         const targetIcons = $(group).find(".token-effect");
                         if (index >= targetIcons.length) {
                             targetIcons.last().after(newIcon);
@@ -63,10 +63,10 @@ Hooks.on("renderCombatTracker", (app, html, user) => {
                     });
 
                     // Set the title of the original icon to the first effect's name or label.
-                    $(icon).attr("data-tooltip", effects[0].name || effects[0].label);
+                    $(icon).attr("data-tooltip", effects[0].label);
                 } else {
                     // Map the effects to an array of labels (either effect names or labels).
-                    const labels = effects.map(e => e.name || e.label);
+                    const labels = effects.map(e => e.label);
 
                     // Join the labels with a newline character and set the icon's title attribute.
                     $(icon).attr("data-tooltip", labels.join('<br>'));
